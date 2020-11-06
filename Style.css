@@ -1,0 +1,98 @@
+
+img.main {
+  vertical-align: middle;
+}
+
+
+
+    div#banner {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color:#BB5A07 ;
+        padding: .25em 1em .25em 1em;
+        
+      }
+/*Welcome to sunnys chicken */
+      h1.welcome {
+        
+        font-family: Segoe UI, Arial, Helvetica, sans-serif;
+          color: #FEE37F;
+          font-size: 5em;
+            display: inline;
+            padding-left: .25em;
+            vertical-align: middle;
+            
+       }
+
+       /*nav bar */
+       div#navbar {
+        clear: both;
+        display: inline-block;
+       
+    }
+    div#navbar ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    div#navbar ul li {
+      
+      margin: 0 0 .25em 0;
+    }
+    div#navbar ul li a {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 2.5em;
+      font-weight: 900;
+      text-decoration: none;
+      color: #FEE37F;
+      display: block;
+      padding: .3em;
+    }
+
+    li.changeBackground {
+      background-color: #BB5A07;
+    }
+    li.changeBackground:hover {
+      background-color: black;
+    }
+    li.changeBackground:active {
+      background-color: #FEE37F;
+    }
+
+    /*Background for entire page*/
+    body {
+      background-color:  black;
+    }
+
+    /*Reviews */
+   .widget-1 {
+      background-color: #BB5A07;
+      padding: 20px;
+      border: 3px solid #494949;
+      -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+      float:right;
+      display: inline;
+    }
+    .widget-1 h3 {
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .widget-1 p {
+      font-style: italic;
+    }
+
+
+    /*Middle picture of store*/
+    img.storefront {
+      
+        display: inline;
+      padding-top: 2em;
+      padding-right: 20em;
+       float: right;
+        
+  
+    }
